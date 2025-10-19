@@ -1,6 +1,6 @@
 # Engenharia Social — Demonstração Educacional com SEToolkit
 
-Este projeto foi desenvolvido como **material de apoio** para uma palestra/apresentação sobre **cibersegurança / engenharia social**, com foco em **educar e conscientizar o público** sobre os riscos e mecanismos por trás de ataques digitais.
+Este projeto foi desenvolvido como uma **prática** para uma palestra/apresentação sobre **cibersegurança / engenharia social**, com foco em **educar e conscientizar o público** sobre os riscos e mecanismos por trás de ataques digitais.
 > **Atenção:**
 > Este projeto tem **propósito exclusivamente educacional e demonstrativo**.
 > Ele **não deve ser utilizado fora de um ambiente controlado e com consentimento dos participantes**.
