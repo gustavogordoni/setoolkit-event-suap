@@ -1,0 +1,13 @@
+
+services:
+  php:
+    build:
+      context: ./preview/php
+      dockerfile: Dockerfile
+    container_name: preview-json
+    restart: always
+    volumes:
+      - "./preview:/var/www/html"
+    
+    ports:      
+      - "8080:80"

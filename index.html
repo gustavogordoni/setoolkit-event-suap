@@ -1,0 +1,362 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+  <title>Comunicação não violenta: primeiros passos - SUAP: Sistema Unificado de Administração Pública</title>
+  <meta charset="utf-8">
+  <meta name="keywords" content="suap, administração, pública, mec, ifrn">
+  <meta content="SUAP: Sistema Unificado de Administração Pública" name="description">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+  <link rel="shortcut icon" href="https://suap.ifsp.edu.br/static/comum/img/favicon.png" />
+
+
+  <link href="https://suap.ifsp.edu.br/static/css/main_default.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="https://suap.ifsp.edu.br/static/css/login.css" rel="stylesheet" type="text/css" media="all" />
+
+
+  <script type="text/javascript" src="https://suap.ifsp.edu.br/static/js/jquery.min.js" charset="utf-8"></script>
+
+
+  <script src="https://suap.ifsp.edu.br/static/comum/js/jquery.min.js"></script>
+
+
+  <script src="https://suap.ifsp.edu.br/static/djtools/tinybox/tinybox.js"></script>
+
+
+  <script src="https://suap.ifsp.edu.br/static/comum/js/jquery.ui.custom.min.js"></script>
+  <script type="text/javascript" src="https://suap.ifsp.edu.br/static/js/jquery.ui.datepicker-pt-BR.js"
+    charset="utf-8"></script>
+  <script type="text/javascript" src="https://suap.ifsp.edu.br/static/js/main.js" charset="utf-8"></script>
+
+
+  <script type="text/javascript" src="https://suap.ifsp.edu.br/static/js/nouislider.min.js" charset="utf-8"></script>
+
+
+
+
+  <script>
+    jQuery(document).ready(function () {
+      initAll();
+      initMenu();
+
+      /* Menu principal: Para dispositivos moveis */
+      if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        jQuery("body").addClass("hideSidebar");
+      }
+    });
+  </script>
+</head>
+
+<body class="anonima ">
+
+  <div class="holder">
+
+    <a href="index.html#" class="toggleSidebar"><span class="fas fa-chevron-left" aria-hidden="true"></span> <span
+        class="sr-only">Mostrar/Esconder barra lateral</span></a>
+    <aside class="nav">
+      <header>
+        <h1><a href="https://suap.ifsp.edu.br/" title="SUAP: Sistema Unificado de Administração Pública">SUAP</a></h1>
+      </header>
+      <nav>
+        <ul class="_main_menu">
+
+          <li>
+            <span>Acessos</span>
+            <ul>
+
+              <li><a href="https://suap.ifsp.edu.br/accounts/login/"><i class="fas fa-lock" aria-hidden="true"></i>
+                  <span>Login</span></a></li>
+
+
+              <li><a href="https://suap.ifsp.edu.br/edu/acesso_responsavel/"><i class="fas fa-key"
+                    aria-hidden="true"></i> <span>Acesso do Responsável</span></a></li>
+
+
+              <li><a href="http://ti.ifsp.edu.br/index.php/component/content/article?id=183"><i class="fas fa-lock"
+                    aria-hidden="true"></i> <span>Como Acessar o SUAP?</span></a></li>
+
+
+
+            </ul>
+          </li>
+
+          <li>
+            <span>Autenticação de Documentos</span>
+            <ul>
+
+              <li><a href="https://suap.ifsp.edu.br/comum/autenticar_documento/"><i class="fas fa-lock"
+                    aria-hidden="true"></i> <span>Documentos Gerais</span></a></li>
+
+
+
+            </ul>
+          </li>
+
+          <li>
+            <span>Avaliações</span>
+            <ul>
+
+              <li><a href="https://suap.ifsp.edu.br/estagios/avaliar_pratica_profissional_supervisor/"><i
+                    class="fas fa-chart-line" aria-hidden="true"></i> <span>Avaliação de Estágio</span></a></li>
+
+
+
+            </ul>
+          </li>
+
+          <li>
+            <span>Consultas</span>
+            <ul>
+
+              <li><a href="https://suap.ifsp.edu.br/comum/setor_telefones_publico/"><i class="fas fa-phone"
+                    aria-hidden="true"></i> <span>Catálogo de telefones</span></a></li>
+
+
+              <li><a href="https://suap.ifsp.edu.br/protocolo/consulta_publica"><i class="fas fa-file-alt"
+                    aria-hidden="true"></i> <span>Processos Físicos</span></a></li>
+
+
+              <li><a href="https://suap.ifsp.edu.br/edu/registroemissaodiploma_public/"><i class="fas fa-certificate"
+                    aria-hidden="true"></i> <span>Registro de Diplomas</span></a></li>
+
+
+              <li><a href="https://suap.ifsp.edu.br/processo_eletronico/consulta_publica/"><i class="fas fa-file"
+                    aria-hidden="true"></i> <span>Processos Eletrônicos</span></a></li>
+
+
+              <li><a href="https://suap.ifsp.edu.br/atividade_docente/consulta_publica_pit_rit/"><i
+                    class="fas fa-fas fa-file-alt" aria-hidden="true"></i> <span>Atividade Docente</span></a></li>
+
+
+              <li><a href="https://suap.ifsp.edu.br/comissoes_reunioes/consultar_assuntos/"><i
+                    class="fas fa-fas fa-calendar-alt" aria-hidden="true"></i> <span>Assuntos de Reuniões</span></a>
+              </li>
+
+
+            </ul>
+          </li>
+
+          <li>
+            <span>Eventos</span>
+            <ul>
+
+              <li><a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/"><i class="fas fa-certificate"
+                    aria-hidden="true"></i> <span>Realizar Inscrição em Evento</span></a></li>
+
+
+
+            </ul>
+          </li>
+
+          <li>
+            <span>Solicitações</span>
+            <ul>
+
+              <li><a href="https://suap.ifsp.edu.br/encceja_ifsp/solicitar_certificado_inep/"><i
+                    class="fas fa-certificate" aria-hidden="true"></i> <span>Certificação ENEM/ENCCEJA</span></a></li>
+
+            </ul>
+      </nav>
+    </aside>
+
+    <main id="content">
+
+
+
+      <h2>Cibersegurança - protegendo sua vida digital</h2>
+
+      <!-- <img src="https://suap.ifsp.edu.br/media/Card_Comunica%C3%A7%C3%A3oNV_oOrzrqp.png"
+        alt="Foto de Cibersegurança - protegendo sua vida digital" style="width:100%" /> -->
+
+      <img
+        src="https://raw.githubusercontent.com/gustavogordoni/gustavogordoni/refs/heads/main/capa-seguranca-digital.png"
+        alt="Foto de Cibersegurança - protegendo sua vida digital" style="width:100%" />
+
+
+
+      <div class="box ">
+        <h3>Dados do Evento</h3>
+        <div>
+          <!-- <table class="info">
+            <tr>
+              <td>Nome</td>
+              <td colspan="3">Cibersegurança - protegendo sua vida digital</td>
+            </tr>
+            <tr>
+              <td>Apresentação</td>
+              <td colspan="3">Palestra Cibersegurança - protegendo sua vida digital: &quot;Comunicação não violenta: primeiros
+                passos&quot;</td>
+            </tr>
+            <tr>
+              <td>Local</td>
+              <td>São Paulo</td>
+              <td>Carga Horária</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Início das Inscrições</td>
+              <td>13/01/2022</td>
+              <td>Fim das Inscrições</td>
+              <td>19/01/2022</td>
+            </tr>
+            <tr>
+              <td>Início do Evento</td>
+              <td>13 de Janeiro de 2022 15:00</td>
+              <td>Fim do Evento</td>
+              <td>13 de Janeiro de 2022 16:00</td>
+            </tr>
+            <tr>
+              <td>Inscrição Pública</td>
+              <td><span class="status status-success">Sim</span></td>
+              <td>Gera Certificado</td>
+              <td><span class="status status-success">Sim</span></td>
+            </tr>
+            <tr>
+              <td>Submetido</td>
+              <td><span class="status status-success">Sim</span></td>
+              <td>Deferido</td>
+              <td><span class="status status-success">Sim</span></td>
+            </tr>
+            <tr>
+              <td>Site</td>
+              <td colspan="3">-</td>
+            </tr>
+          </table> -->
+
+          <table class=info>
+            <tbody>
+              <tr>
+                <td>Nome</td>
+                <td colspan=3>Cibersegurança - Protegendo sua vida digital</td>
+              </tr>
+              <tr>
+                <td>Apresentação</td>
+                <td colspan=3>Palestra com o tema: "Cibersegurança - Protegendo sua
+                  vida digital"</td>
+              </tr>
+              <tr>
+                <td>Local</td>
+                <td>IFSP - Campus Votuporanga</td>
+                <td>Carga Horária</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>Início das Inscrições</td>
+                <td>20/10/2025</td>
+                <td>Fim das Inscrições</td>
+                <td>25/10/2025</td>
+              </tr>
+              <tr>
+                <td>Início do Evento</td>
+                <td>20 de Outubro de 2025 7:00</td>
+                <td>Fim do Evento</td>
+                <td>25 de Outubro de 2025 10:35</td>
+              </tr>
+              <tr>
+                <td>Inscrição Pública</td>
+                <td><span class="status status-success">Sim</span></td>
+                <td>Gera Certificado</td>
+                <td><span class="status status-success">Sim</span></td>
+              </tr>
+              <tr>
+                <td>Submetido</td>
+                <td><span class="status status-success">Sim</span></td>
+                <td>Deferido</td>
+                <td><span class="status status-success">Sim</span></td>
+              </tr>
+              <tr>
+                <td>Site</td>
+                <td colspan=3>-</td>
+              </tr>
+          </table>
+
+        </div>
+      </div>
+
+      <div class="box ">
+        <h3>Formulário de Inscrição</h3>
+        <div>
+
+          <form name="realizarinscricao_form" id="realizarinscricao_form" method="POST">
+
+            <input type="hidden" name="csrfmiddlewaretoken"
+              value="AaxdRcBsW172K23dSF47WdkXgbF05YE6HxsjM1cucGpQMRCy84uGGbHbvACHSxD6">
+
+            <div>
+              <fieldset class="module aligned "><span>
+                  <div class="form-row nome ">
+                    <div class="field-box-first required"><label for="id_nome">Nome Completo:</label><input required
+                        type="text" name="nome" maxlength="255" id="id_nome"></div>
+                  </div>
+                  <!-- <div class="form-row titulo ">
+                    <div class="field-box-first"><label for="id_titulo">Título do trabalho:</label><input type="text"
+                        name="titulo" maxlength="255" id="id_titulo">
+                      <p class="help">Em caso de submissão de trabalho, digite aqui o título do trabalho apresentado.
+                      </p>
+                    </div>
+                  </div> -->
+                  <div class="form-row email ">
+                    <div class="field-box-first required"><label for="id_email">E-mail:</label><input required
+                        type="email" name="email" maxlength="320" id="id_email"></div>
+                  </div>
+                  <div class="form-row nacionalidade ">
+                    <div class="field-box-first required"><label for="id_nacionalidade">Nacionalidade:</label><select
+                        required name="nacionalidade" id="id_nacionalidade">
+                        <option value="Brasileira">Brasileira</option>
+
+                        <option value="Brasileira - Nascido no exterior ou naturalizado">Brasileira - Nascido no
+                          exterior ou naturalizado</option>
+
+                        <option value="Estrangeira">Estrangeira</option>
+
+                      </select></div>
+                  </div>
+                  <div class="form-row documento_identificador ">
+                    <div class="field-box-first required"><label for="id_documento_identificador">CPF ou
+                        Passaporte/RNE:</label><input required type="text" name="documento_identificador" maxlength="50"
+                        id="id_documento_identificador">
+                      <p class="help">Formato CPF: "XXX.XXX.XXX-XX"</p>
+                    </div>
+                  </div>
+                  <div class="form-row publico_alvo ">
+                    <div class="field-box-first required"><label for="id_publico_alvo">Perfil:</label><select required
+                        name="publico_alvo" id="id_publico_alvo">
+                        <option value=1>Aluno</option>
+                        <option value=2>Servidor</option>
+                        <option value=3>Público Externo</option>
+
+                    </div>
+                  </div>
+            </div>
+            </span>
+            </fieldset>
+        </div>
+        <div class="submit-row">
+          <input type="submit" name="realizarinscricao_form" class="default" value="Enviar" />
+
+
+        </div>
+        </form>
+
+
+      </div>
+  </div>
+
+
+
+  <div class="login-footer">
+    <p>&copy; 2025 SUAP | Desenvolvimento: <a href="http://www.ifsp.edu.br/">IFSP</a> - c2d4d7803d29</p>
+  </div>
+
+  </main>
+
+  </div>
+
+
+
+</body>
+
+</html>
