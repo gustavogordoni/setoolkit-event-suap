@@ -22,8 +22,8 @@ Este projeto foi desenvolvido como uma **prática** para uma palestra/apresenta�
     ├── php/Dockerfile            # Dockerfile do ambiente PHP    
     └── sucesso.php               # Página de feedback/sucesso
 ├── capa-seguranca-digital.png    # Imagem utilizada na página falsa
-├── REAME.md
-└── index.html                    # Página falsa para a realização do cadastro
+├── index.html                    # Página falsa para a realização do cadastro
+└── README.md
 
 ```
 
