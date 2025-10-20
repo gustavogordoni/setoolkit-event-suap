@@ -73,8 +73,9 @@ O sistema é composto por duas partes principais:
    > Este passo deve ser feito **depois** da execução da engenharia social no SEToolkit.
 
    ```bash
-   chmod u+x ./preview/converter.sh
-   ./preview/converter.sh
+   cd preview/
+   chmod u+x ./converter.sh   
+   ./converter.sh
    ```
 
    O script irá:
@@ -84,9 +85,11 @@ O sistema é composto por duas partes principais:
    * Gerar um `dados/json/dados.json` pronto para visualização
 
 3. **Suba o ambiente Docker**
-
+   
+    > Você deve estar no mesmo nível de diretório que o arquivo docker-compose.yaml (dentro de `preview/`)
+    
    ```bash
-   docker compose up -d
+   docker compose up -d 
    ```
 
    A aplicação estará disponível em:
