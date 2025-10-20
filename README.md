@@ -15,12 +15,14 @@ Este projeto foi desenvolvido como uma **prática** para uma palestra/apresenta�
     ├── dados/
     │   ├── json/                 # Saída em JSON
     │   └── xml/                  # Cópia do XML gerado pelo SEToolkit
+    ├── docker-compose.yaml       # Contém as especificações do container
     ├── imports/                  # Arquivos de apoio (configurações, funções, CSS)
     ├── index.php                 # Página principal de visualização dos dados
     ├── mapeamento.conf           # Arquivo de mapeamento entre XML e campos JSON
-    ├── php/Dockerfile            # Dockerfile do ambiente PHP
+    ├── php/Dockerfile            # Dockerfile do ambiente PHP    
     └── sucesso.php               # Página de feedback/sucesso
-├── docker-compose.yaml           # Contém as especificações do container
+├── capa-seguranca-digital.png    # Imagem utilizada na página falsa
+├── REAME.md
 └── index.html                    # Página falsa para a realização do cadastro
 
 ```
