@@ -174,7 +174,7 @@
       <!-- <img src="https://suap.ifsp.edu.br/media/Card_Comunica%C3%A7%C3%A3oNV_oOrzrqp.png"
         alt="Foto de Cibersegurança - protegendo sua vida digital" style="width:100%" /> -->
 
-      <img src="https://raw.githubusercontent.com/gustavogordoni/gustavogordoni/refs/heads/main/capa-seguranca-digital.png"
+      <img src="https://raw.githubusercontent.com/gustavogordoni/setoolkit-event-suap/refs/heads/main/capa-seguranca-digital.png"
         alt="Foto de Cibersegurança - protegendo sua vida digital" style="width:100%" />
 
 
