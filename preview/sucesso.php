@@ -174,7 +174,7 @@
       <!-- <img src="https://suap.ifsp.edu.br/media/Card_Comunica%C3%A7%C3%A3oNV_oOrzrqp.png"
         alt="Foto de Cibersegurança - protegendo sua vida digital" style="width:100%" /> -->
 
-      <img src="https://raw.githubusercontent.com/gustavogordoni/setoolkit-event-suap/refs/heads/main/capa-seguranca-digital.png"
+      <img src="https://raw.githubusercontent.com/gustavogordoni/gustavogordoni/refs/heads/main/capa-seguranca-digital.png"
         alt="Foto de Cibersegurança - protegendo sua vida digital" style="width:100%" />
 
 
@@ -255,7 +255,7 @@
                 <td>Início do Evento</td>
                 <td>20 de Outubro de 2025 7:00</td>
                 <td>Fim do Evento</td>
-                <td>25 de Outubro de 2025 10:35</td>
+                <td>25 de Outubro de 2025 11:00</td>
               </tr>
               <tr>
                 <td>Inscrição Pública</td>

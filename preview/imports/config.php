@@ -1,7 +1,7 @@
 <?php
 
 $columns = [
-    "nome" => true,    
+    "nome" => true,
     "email" => true,
     "nacionalidade" => true,
     "cpf" => false,
@@ -9,6 +9,6 @@ $columns = [
 ];
 
 $censor_options = [
-    "email" => false,
+    "email" => true,
     "cpf" => true
 ];
