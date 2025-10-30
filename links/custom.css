@@ -1,0 +1,84 @@
+:root {
+  /* --primary-1: #0b6ea6;
+  --primary-2: #075e85; */
+  --primary-1: #2e68cc;
+  --primary-2: #182d88;
+  --accent: #f3c623;
+  --muted: #f8f9fa;
+  --card-bg: rgba(255, 255, 255, 0.06);
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial;
+  background: linear-gradient(
+    135deg,
+    var(--primary-1) 0%,
+    var(--primary-2) 100%
+  );
+  color: #ffffff;
+  min-height: 100vh;
+  padding-top: 3.5rem;
+}
+
+.hero {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.04),
+    rgba(0, 0, 0, 0.03)
+  );
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+.brand-badge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  margin-right: 0.5rem;
+}
+
+.btn-accent {
+  background: linear-gradient(90deg, var(--accent), #ffda6a);
+  color: #0b3b3b;
+  border: none;
+  font-weight: 600;
+}
+
+.card.custom {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  color: #fff;
+}
+
+.muted-text {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+footer {
+  margin-top: 2.5rem;
+  padding: 1.25rem 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+}
+
+a.text-accent {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.resource-list a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.note {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
+}
