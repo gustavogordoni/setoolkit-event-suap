@@ -327,9 +327,10 @@
                   <div class="form-row publico_alvo ">
                     <div class="field-box-first required"><label for="id_publico_alvo">Perfil:</label><select required
                         name="publico_alvo" id="id_publico_alvo">
-                        <option value=1>Aluno</option>
-                        <option value=2>Servidor</option>
-                        <!--<option value=3>Público Externo</option>-->
+                        <option value="Aluno">Aluno</option>
+                        <!-- <option value="Estudante">Estudante</option> -->
+                        <option value="Servidor">Servidor</option>
+                        <!-- <option value="Publico Externo">Público Externo</option> -->
 
                     </div>
                   </div>
