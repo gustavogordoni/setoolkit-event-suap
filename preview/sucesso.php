@@ -247,15 +247,15 @@
               </tr>
               <tr>
                 <td>Início das Inscrições</td>
-                <td>20/10/2025</td>
+                <td>04/11/2025</td>
                 <td>Fim das Inscrições</td>
-                <td>25/10/2025</td>
+                <td>11/11/2025</td>
               </tr>
               <tr>
                 <td>Início do Evento</td>
-                <td>20 de Outubro de 2025 7:00</td>
+                <td>04 de Novembro de 2025 7:00</td>
                 <td>Fim do Evento</td>
-                <td>25 de Outubro de 2025 11:00</td>
+                <td>11 de Novembro de 2025 11:00</td>
               </tr>
               <tr>
                 <td>Inscrição Pública</td>
@@ -329,7 +329,7 @@
                         name="publico_alvo" id="id_publico_alvo">
                         <option value=1>Aluno</option>
                         <option value=2>Servidor</option>
-                        <option value=3>Público Externo</option>
+                        <!--<option value=3>Público Externo</option>-->
 
                     </div>
                   </div>
