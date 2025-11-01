@@ -53,7 +53,7 @@
 <body class="anonima ">
 
   <div class="holder">
-    <p class="msg success" id="feedback_message">
+    <p class="msg success" id="feedback">
       Inscrição realizada com sucesso. O comprovante de inscrição será enviado para o e-mail informado assim que a inscrição for confirmada.
     </p>
 
